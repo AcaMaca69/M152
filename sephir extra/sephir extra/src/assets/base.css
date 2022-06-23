@@ -1,0 +1,103 @@
+*{
+    width: 100%;
+    margin: 0px;
+    background-color: #595959;
+  
+  }
+  /*Header*/
+  header{
+    color: rgb(202, 202, 202);
+    width: 95%;
+    background-color: #5d0000;
+    padding-left: 5%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .content{
+    background-color: #5d005d;
+    border-radius: 25px;
+    flex: 1 0 25%;
+    box-shadow: 0 2px 1px 0 rgba(200, 200, 200, 0.76);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+  }
+  .faecher > a{
+    width: auto;
+    background-color: transparent;
+    float: right;
+    padding-right: 5px;
+  }
+
+
+  main{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #logoTitle{
+    flex: 11;
+    background-color: transparent;
+  }
+  .faecher{
+    background-color: transparent;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: rgb(202, 202, 202);
+    font-weight: bold;
+    width: 90%;
+  }
+  .Add{
+    padding-right: 5px;
+    background-color: transparent;
+    width: 90%;
+    padding-top: 20px;
+}
+.Add > input{
+    float: right;
+    background-color:  rgb(202, 202, 202);
+    width: 45px;
+    border: none;
+}
+
+.notezeigen{
+    background-color: transparent;
+    float: right;
+    width: 90%;
+}
+.notezeigen > div{
+    background-color: transparent;
+    color: rgb(202, 202, 202);
+    float: right;
+    padding-right: 5px;
+    width: 90%;
+}
+.notezeigen > div > button{
+  background-color: transparent;
+  width: 45px;
+  border: none;
+}
+.notezeigen > div > button:hover{
+  cursor: pointer;
+  
+}
+@media screen and (max-width: 992px) {
+  .content{
+    background-color: #5d005d;
+    border-radius: 25px;
+    flex: 1 0 100%;
+    box-shadow: 0 2px 1px 0 rgba(200, 200, 200, 0.76);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+  }
+}
